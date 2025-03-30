@@ -20,7 +20,6 @@ body {
     color: #212121;
 }
 
-/* Galeri Stili */
 .gallery {
     display: grid;
     max-width: 1200px;
@@ -55,7 +54,6 @@ body {
     text-decoration: none;
 }
 
-/* Form Stili */
 label {
     display: flex;
     flex-direction: column;
