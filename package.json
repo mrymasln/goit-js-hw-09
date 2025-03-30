@@ -12,6 +12,10 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
-    "simplelightbox": "^2.14.3"
+    "glob": "^11.0.1",
+    "postcss-sort-media-queries": "^5.2.0",
+    "simplelightbox": "^2.14.3",
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
   }
 }

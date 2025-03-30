@@ -11,6 +11,7 @@ export default defineConfig(({ command }) => {
     },
     root: "src",
     build: {
+      outDir: "../dist",
       sourcemap: true,
       rollupOptions: {
         input: glob.sync("./src/*.html"),
@@ -34,8 +35,6 @@ export default defineConfig(({ command }) => {
           },
         },
       },
-      outDir: "../dist",
-      emptyOutDir: true,
     },
     plugins: [
       injectHTML(),
